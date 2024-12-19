@@ -22,6 +22,7 @@ app.use("/api/v1/user", require("./routes/userRoutes"));
 
 //port
 const port = process.env.PORT || 8080;
+console.log(port);
 //listen port
 app.listen(port, () => {
   console.log(
